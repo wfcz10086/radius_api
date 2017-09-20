@@ -1,14 +1,18 @@
+  ![radius_api](./view/1.jpg)
+
 #
 这个作用是用来网络认证的接口，收到密文后，解码得出账号和密码
 
 更新到数据库里，然后设置过期时间，并且返回json。在这段有效期内，用户可以发起登录请求。
 
 /v1?text=base64密文
-Installation
+#Installation
 
 cd $GOPATH/src/api
 bee run
-Usage:
+
+
+#Usage:
 <pre><code>
 http://127.0.0.1:8080/v1?text=d3dxMTIzNDU2X2Nhb25pbWExMTQ=
 
